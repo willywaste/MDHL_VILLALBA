@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(40deg, #4900be, #727272);
+    background-size: 290% 300%;
+    
+}
+
+
+
+nav {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    height: 60px;
+    width: 1365px;
+    background-color: #363636;
+    filter: drop-shadow(3px 3px 5px);
+
+
+}
+
+.a {
+    display: inline-block;
+    margin: 9px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    position: relative;
+    left: 980px;
+}
+
+#home {
+    color: #EEEEEE;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #747474;
+    transition: all .2s ease-in-out;
+}
+
+#home:hover {
+    transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    transform-origin: center center;
+    background-color: rgba(23, 173, 43, 0.774);
+}
+
+#about {
+    color: #EEEEEE;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #747474;
+    transition: all .2s ease-in-out;
+}
+
+#about:hover {
+    transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    transform-origin: center center;
+    background-color: rgba(23, 173, 43, 0.774);
+}
+
+#contact {
+    color: #EEEEEE;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #747474;
+    transition: all .2s ease-in-out;
+}
+
+#contact:hover {
+    transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    transform-origin: center center;
+    background-color: rgba(23, 173, 43, 0.774);
+}
+
+.logo {
+    position: relative;
+    top: 18px;
+    left: 60px;
+    z-index: 2;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #747474bb;
+    border-radius: 30px;
+    filter: drop-shadow(0px 3px 5px);
+    transition: all .3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    transform-origin: center center;
+    background-image: url(/assets/cosito-prueba.jpg);
+    background-position: right;
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #dad8d8;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    z-index: 5;
+    text-shadow: 1px 3px 2px black;
+    font-size: xx-large;
+
+}
+
+#hockey1{
+    height: 450px;
+    width: 620px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 660px;
+    filter: drop-shadow(3px 3px 10px);
+}
+
+
+h2 {
+    background-color:#747474;
+    color: #EEEEEE;
+    
+    display: inline-block;
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    box-shadow: 2px 2px 16px black
+}
+
+article {
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    left: 22px;
+    margin: 28px;
+    color: rgba(31, 30, 30, 0.938);
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    padding: 15px 15px;
+    text-align: center;
+    box-shadow: 2px 2px 16px black;
+}
+
