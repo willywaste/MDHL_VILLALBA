@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,32 +16,28 @@ body {
 
 
 nav {
-    display: inline-block;
-    position: absolute;
-    top: 60px;
+    display: flex;
     height: 60px;
     width: 1365px;
     background-color: #363636;
     filter: drop-shadow(3px 3px 5px);
-
-
+    justify-content:end;
+    align-items: center;
+    gap:20px;
 }
 
 .a {
     display: inline-block;
-    margin: 9px;
-    margin-top: 10px;
     padding: 10px 15px;
+    
     text-align: center;
     text-decoration: none;
     box-sizing: border-box;
     border-radius: 5px;
     box-shadow: 1px 1px 5px black;
-    position: relative;
-    left: 980px;
 }
 
-#home {
+.btn {
     color: #EEEEEE;
     font-size: large;
     font-weight: bolder;
@@ -48,39 +45,12 @@ nav {
     transition: all .2s ease-in-out;
 }
 
-#home:hover {
+.btn:hover {
     transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2);
     transform-origin: center center;
     background-color: rgba(23, 173, 43, 0.774);
 }
 
-#about {
-    color: #EEEEEE;
-    font-size: large;
-    font-weight: bolder;
-    background-color: #747474;
-    transition: all .2s ease-in-out;
-}
-
-#about:hover {
-    transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2);
-    transform-origin: center center;
-    background-color: rgba(23, 173, 43, 0.774);
-}
-
-#contact {
-    color: #EEEEEE;
-    font-size: large;
-    font-weight: bolder;
-    background-color: #747474;
-    transition: all .2s ease-in-out;
-}
-
-#contact:hover {
-    transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2);
-    transform-origin: center center;
-    background-color: rgba(23, 173, 43, 0.774);
-}
 
 .logo {
     position: relative;

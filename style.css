@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system;
+}
+/* FLEX CONTAINER */
+body{
+    /* ------------ */
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction:column; */ /* DEFINE LA DIRECCIÓN DEL MAIN AXIES (OSEA EL EJE PRINCIPAL */
+    justify-content: space-between;/* DISTRIBUYE LOS ELEMENTOS EN EL EJE PRINCIPAL */
+    align-items: center; /* DISTRIBUYE LOS ELEMENTOS EN EL EJE TRANSVERSAL */
+    /*align-content: center; DISTRIBUYE LOS ELEMENTOS EN EL EJE TRANSVERSAL AL USAR WRAP*/
+    /* ------------ */
+    /* flex-wrap: wrap; */ /* HACE EL SALTO DE LINEA CUANDO LA FILA NO ENTRA EN EL WIDTH DEL PADRE */
+    height: 100vh;
+}
+
+/* FLEX ITEMS */
+.box{
+    width: 50px;
+    min-height: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+.uno{
+    background-color: blue;
+    /* order: 3; */
+    /* flex-grow: 5; */
+    /* align-self: end; */
+}
+#uno{
+    color: white;
+}
+.dos{
+    background-color: yellow;
+    /* order: 1; */
+/*     flex-grow: 2;
+ */}
+.tres{
+    background-color: aquamarine;
+    /* order: -1; */
+/*     flex-grow: 1;*/
+    align-self: end; /* PUEDE RECIBIR TANTO PROPIEDADES DE FLEX ITEMS COMO PROPIEDADES DE FLEX CONTAINER */
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+/* 1 REM SIGNIFICA 16PX*/

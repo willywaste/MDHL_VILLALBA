@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lilita+One&family=Nunito:ital,wght@0,600;1,600;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #fff59d;
+
+}
+
+header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+
+}
+
+
+header .logo {
+    height: 100px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+header .logo:hover {
+    transform: scale(1.2);
+
+}
+
+header .nav-links {
+    list-style: none;
+}
+
+header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: medium;
+}
+
+header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+header .nav-links a {
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+
+}
+
+header .nav-links li a:hover {
+    color: #ffbc0e;
+}
+
+header .btn {
+    text-decoration: none;
+    font-size: 700;
+    color: #1b3039;
+    padding: 5px 15px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header .btn:hover {
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+aside {
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+    height: 410px;
+    padding: 60px 60px;
+
+}
+
+section {
+    margin-top: 60px;
+    margin-right: 60px;
+    text-align: center;
+    width: 50%;
+    height: 410px;
+    background-color: #1b3039;
+    color: #e2f1f8;
+    padding: 60px 60px;
+    border-radius: 10px;
+}
+
+.rules-list {
+    margin-top: 20px;
+    width: 80%;
+    height: 500px;
+    text-align: justify;
+}
+
+h3 {
+    display: inline-block;
+    position: relative;
+    top: -35px;
+    color: #ffbc0e;
+}
+
+a {
+    color: #ffbc0e;
+    text-decoration: none;
+}
+
+p {
+    position: relative;
+    top: -35px;
+    text-align: justify;
+}
+
+.sport-p {
+    color: #1b3039;
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    top: 60px;
+}
+
+h1 {
+    color: #1b3039;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    font-size: xx-large;
+}
+
+h2 {
+    background-color: #fff59d;
+    color: #1b3039;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+h5 {
+    font-weight: bolder;
+    font-size: mediums;
+}
+
+.title-rules {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+}
+
+.title-list {
+    background-color: #fff59d;
+    color: #1b3039;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+    position: relative;
+    top: -40px;
+}
+
+h4 {
+    position: relative;
+    top: -20px;
+}
+
+.title-play {
+    position: relative;
+    top: 2px;
+    color: #ffbc0e;
+}
+
+.all-play {
+    position: relative;
+    top: 5px;
+    font-size: small;
+}
+
+.contact {
+    position: relative;
+    top: 80px;
+    height: 50px;
+}
+
+dl {
+    position: absolute;
+    left: 740px;
+    top: 300px;
+
+}
+
+dt {
+    margin: 5px;
+    font-size: larger;
+    color: #ffbc0e
+}
+
+.img {
+    height: 320px;
+    width: 450px;
+    border-radius: 3px;
+    filter: drop-shadow(5px 5px 1px #1b3039);
+    transition: all 0.3s;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    padding: 10px;
+    background-color: #1b3039;
+    text-align: center;
+    color: #eceff1;
+
+}
+
+.li {
+    list-style-position: inside;
+    font-size: small;
+    margin: 10px;
+    margin-top: -30px;
+}
+
+.li>li>ol>li {
+    list-style-type: lower-latin;
+}
+
+ol>li::marker {
+    color: #ffbc0e
+}
+
+ul>li {
+    list-style-position: inside;
+    font-size: small;
+    position: relative;
+    top: 5px;
+}
+
+table {
+
+    position: relative;
+    top: -35px; left: 5px;
+    height: 50vh;
+    width: 40rem;
+    caption-side: bottom;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: medium;
+}
+
+table,
+th,
+tr,
+td {
+    border: 2px solid;
+
+}
+
+.section-table {
+    position: relative;
+    top: 20px;
+
+    width: 65%;
+    height: 430px;
+}
+
+.fall {
+    display: inline-block;
+    position: relative;
+    top: -55px;
+    color: #ffbc0e;
+}
+
+.img2{
+    position: relative;
+    top: 60px;
+    height: auto;
+    width: 300px;
+    border-radius: 3px;
+    filter: drop-shadow(5px 5px 1px #1b3039);
+    transition: all 0.3s;
+}
+
+.img2:hover{
+    transform: scale(1.2);
+}
