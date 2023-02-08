@@ -13,6 +13,7 @@ body {
 
 }
 
+
 header {
     background-color: #1b3039;
     display: flex;
@@ -83,6 +84,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     height: 80vh;
+
 }
 
 aside {
@@ -93,6 +95,7 @@ aside {
     padding: 60px 60px;
 
 }
+
 
 section {
     margin-top: 60px;
@@ -105,6 +108,92 @@ section {
     padding: 60px 60px;
     border-radius: 10px;
 }
+
+.form-section {
+    display: flex;
+    width: 70%;
+    height: 80rem;
+    background-color: #1b3039;
+    color: #e2f1f8;
+    border-radius: 10px;
+}
+
+.form-section>form>fieldset {
+    margin: 20px;
+    border-color: #fff59d;
+}
+
+.form-section>form>fieldset>legend {
+    color: #ffbc0e;
+}
+
+.registration>fieldset {
+    padding: 10px;
+}
+
+.form-section>h1 {
+    position: absolute;
+    color: #ffbc0e;
+    top: 160px;
+    left: 550px;
+}
+
+.autorization {
+    padding: 10px;
+    border-color: #fff59d;
+}
+
+fieldset>label {
+    align-self: center;
+    display: inline-block;
+    width: 20%;
+}
+
+fieldset>label>input {
+    display: inline-block;
+    width: 90%;
+    align-self: center;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: medium;
+}
+
+fieldset>select {
+
+    width: 30%;
+    align-self: center;
+    padding: 5px 5px;
+    font-size: medium;
+
+}
+
+.permission {
+    position: relative;
+    top: 70px;
+}
+
+
+.button-send {
+    position: relative;
+    top: 90px;
+    font-size: xx-large;
+    color: #1b3039;
+    padding: 5px 30px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.button-send:hover {
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+
 
 .rules-list {
     margin-top: 20px;
@@ -227,13 +316,7 @@ dt {
     transform: scale(1.1);
 }
 
-footer {
-    padding: 10px;
-    background-color: #1b3039;
-    text-align: center;
-    color: #eceff1;
 
-}
 
 .li {
     list-style-position: inside;
@@ -260,7 +343,8 @@ ul>li {
 table {
 
     position: relative;
-    top: -35px; left: 5px;
+    top: -35px;
+    left: 5px;
     height: 50vh;
     width: 40rem;
     caption-side: bottom;
@@ -293,7 +377,7 @@ td {
     color: #ffbc0e;
 }
 
-.img2{
+.img2 {
     position: relative;
     top: 60px;
     height: auto;
@@ -303,6 +387,90 @@ td {
     transition: all 0.3s;
 }
 
-.img2:hover{
+.img2:hover {
     transform: scale(1.2);
+}
+
+.table-show {
+
+    position: relative;
+    top: 60px;
+    left: 400px;
+    height: 50vh;
+    width: 40rem;
+    caption-side: bottom;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: large
+}
+
+
+.div-maps {
+    position: absolute;
+    top:42rem;
+    left: 260px;
+    background-color: #1b3039;
+    border-radius: 15px;
+    padding: 60px 30px;
+    width: 50rem;
+    height: 630px;
+
+}
+
+.title-maps{
+position: absolute;
+top:9px;left: 310px;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    left: -30px;
+    margin: 30px;
+    padding: 5px;
+    background-color: #1b3039;
+    text-align: center;
+    color: #eceff1;
+
+}
+
+footer>p {
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.main-r {
+    display: flex;
+    justify-content: space-evenly;
+    height: 85rem;
+}
+
+.maps-google{
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.maps-google:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (min-width:375px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+    }
 }
